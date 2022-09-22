@@ -7,48 +7,7 @@
 * @copyright 2020 Andrew Mackay
 */
 
-/**
-* DOCUMENTATION...
-*/
-/**
-*
-* Queen.java
-*
-* Purpose and Description: 
-* Create a player class to interact with Game,Inventory,World map,and Queen.
-*
-*
-* Compiling and running instructions<
-* Required: ....
-* Compile:  ....
-* Run:      ....
-*
-*/
-/**
-*
-* Classes:
-*
-* Your Class Name: Queen.
-* describe your class 
-* Constructors:
-* Queen()- This is the default constructor for Queen object.
-* Queen(String n, int h, int a) 
-* Methods:
-* getName() - This is to return class member variable name
-* getHP() - This is to return class member HP.
-* getAttackPower() - This is to return class me
-* setName
-*
-*
-* Instance Variables
-* ......
-*
-* Another Class Name:
-* ......
-* Another Class Constructors:
-* Another Class Methods:
-* etc.
-*/
+
 
 
 
