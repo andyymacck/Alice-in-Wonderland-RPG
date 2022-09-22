@@ -7,53 +7,6 @@
 * @copyright 2001-2020 Andrew Mackay
 */
 
-/**
-* DOCUMENTATION...
-*/
-/**
-*
-* Alice.java
-*
-* Purpose and Description: 
-* Create a player class to interact with Game,Inventory,World map,and Queen.
-*
-*
-* Compiling and running instructions<
-* Required: ....
-* Compile:  ....
-* Run:      ....
-*
-*/
-/**
-*
-* Classes:
-*
-* Your Class Name: Alice.
-* describe your class 
-* Constructors:
-* Alice()- This is the default constructor for Alice object.
-* Alice(String n, int h, int a) 
-* Methods:
-* getName() - This is to return class member variable name
-* setlevel - 
-* setAttack 
-* getAttack
-* getRope
-* getDagger
-* getLighter
-* getChainsaw
-* gethp
-* getAttack
-* getHP
-* Instance Variables
-* ......
-*
-* Another Class Name:
-* ......
-* Another Class Constructors:
-* Another Class Methods:
-* etc.
-*/
 
 
 import textio.TextIO;		//This is for the use of textio.
