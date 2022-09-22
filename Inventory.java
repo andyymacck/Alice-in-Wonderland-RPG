@@ -7,44 +7,6 @@
 * @copyright 2020 Andrew Mackay
 */
 
-/**
-* DOCUMENTATION...
-*/
-/**
-*
-* Inventory.java
-*
-* Purpose and Description: 
-* Create a player class to interact with Game,Inventory,World map,and Queen.
-*
-*
-* Compiling and running instructions<
-* Required: cd\desktop\java\Assignment 4\
-* Compile:  cd\desktop\java\Assignment 4\javac Inventory.java
-* Run:      cd\desktop\java\Assignment 4\java Game
-*
-*/
-/**
-*
-* Classes:
-*
-* Your Class Name: 
-* describe your class 
-* Constructors:
-* Alice()- This is the default constructor for Alice object.
-* Alice(String n, int h, int a) 
-* Methods:
-* getName() - This is to return class member variable name
-*
-* Instance Variables
-* ......
-*
-* Another Class Name:
-* ......
-* Another Class Constructors:
-* Another Class Methods:
-* etc.
-*/
 
 import textio.TextIO;	//This is so textio can be used.
 
