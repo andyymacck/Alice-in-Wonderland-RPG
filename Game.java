@@ -13,39 +13,6 @@
 /**
 *
 * Game.java
-*
-* Purpose and Description: 
-* Create a player class to interact with Game,Inventory,World map,and Queen.
-*
-*
-* Compiling and running instructions<
-* Required: cd\desktop\java\Assignment 4\javac Game.java
-* Compile:  cd\desktop\java\Assignment 4\java Game
-* Run:      ....
-*
-*/
-/**
-*
-* Classes:
-*
-* Your Class Name: Game.
-* describe your class 
-* Constructors:
-* Game()- This is the default constructor for Game object.
-* 
-* Methods:
-* getName() - This is to return class member variable name
-
-* outputLevel
-* Battle(Alice p, Queen q)
-Instance Variables
-* ......
-*
-* Another Class Name:
-* ......
-* Another Class Constructors:
-* Another Class Methods:
-* etc.
 */
 
 
