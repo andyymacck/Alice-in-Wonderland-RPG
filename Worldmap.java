@@ -7,42 +7,7 @@
 * @copyright 2020 Andrew Mackay
 */
 
-/**
-* DOCUMENTATION...
-*/
-/**
-*
-* Worldmap.java
-*
-* Purpose and Description: 
-* Create a player class to interact with Game,Inventory,World map,and Queen.
-*
-*
-* Compiling and running instructions<
-* Required: cd\desktop\java\Assignment 4\
-* Compile:  cd\desktop\java\Assignment 4\javac Worldmap.java
-* Run:      cd\desktop\java\Assignment 4\java Game
-*
-*/
-/**
-*
-* Classes:
-*
-* Your Class Name: Worldmap.
-* describe your class 
-* Constructors:
-* Worldmap()- This is the default constructor for Worldmap object.
-* Methods:
-* Map
-* Instance Variables
-* ......
-*
-* Another Class Name:
-* ......
-* Another Class Constructors:
-* Another Class Methods:
-* etc.
-*/
+
 
 import textio.TextIO;
 
