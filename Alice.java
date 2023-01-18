@@ -8,16 +8,14 @@
 */
 
 
-
 import textio.TextIO;		//This is for the use of textio.
 import java.util.Random;	//This is so random100() can use random numbers.
 
-public class Alice{
-	private String name = " ";					//The name of the player
-	private int hp = 0;							//health points of the character
-	private int attack = 0;						//attack points of the character
+
+public class Alice extends GameCharacter{
+						//The name of the player
 	private Inventory bag = new Inventory();	//creates an empty inventory
-	private int levelLocation = 0;				//Level location
+	private int levelLocation = 1;				//Level location
 	
 	/**
      * Default constructor for Alice class
@@ -27,56 +25,23 @@ public class Alice{
 	Alice(){
 		
 	}
-	/**
-     * Parameter constructor for Alice class.
-     * 
-     * parameter n - name of player's character (String)
-	 * parameter h - value of player's health points (HP) (int)
-	 * parameter h - value of player's attack points (int)
-	 * 
-	 * levelLocation is automatically set to one upon object creation.
-	 * bag with 10 slots is automatically created when object is created.
-     */
-	Alice(String n, int h, int a){
-		name = n;
-		hp = h;
-		attack = a;
-		levelLocation = 1;
+	Alice ( String n, int initialHp, int initialAttackPower){
+		super(n, initialHp, initialAttackPower );
+		
 	}	
 	
-	/**
-	* This is to access name variable of Alice class
-	*
-	* return name (String)
-	*/		
 	public String getName(){
-		return name;
+		return "jizzy";
+		
 	}
-	
-	/**
-	* This is to access HP variable of Alice class
-	*
-	* return hp (int)
-	*/		
-	public int getHP(){
-		return hp;
-	}
-	
-	/**
-	* This is to access attack variable of Alice class
-	*
-	* return attack (int)
-	*/		
-	public int getAttack(){
-		return attack;
-	}
-	
+
 	/**
 	* This is to access levelLocation variable of Alice class. Used
 	* for the game's logic in choosing the correct level to display.
 	* return levelLocation (int)
 	*/	
 	public int getLevel(){
+		TextIO.putln("got level location");
 		return levelLocation;
 	}
 	
@@ -86,6 +51,7 @@ public class Alice{
 	* return void
 	*/	
 	public void getBag(){
+		TextIO.putln("got bag");
 		bag.checkBag();
 	}
 	
@@ -95,6 +61,7 @@ public class Alice{
 	* return true/false (Boolean)
 	*/		
 	public boolean getRope(){
+		TextIO.putln("got name");
 		return bag.getRope();
 	}	
 
@@ -104,6 +71,7 @@ public class Alice{
 	* return true/false (Boolean)
 	*/	
 	public boolean getDagger(){
+		TextIO.putln("got dagger");
 		return bag.getDagger();
 	}	
 	
@@ -113,6 +81,7 @@ public class Alice{
 	* return true/false (Boolean)
 	*/	
 	public boolean getLighter(){
+		TextIO.putln("got lighter");
 		return bag.getLighter();
 	}	
 	
@@ -122,6 +91,7 @@ public class Alice{
 	* return true/false (Boolean)
 	*/	
 	public boolean getChainsaw(){
+		TextIO.putln("got chainsaw");
 		return bag.getChainsaw();
 	}		
 
@@ -131,6 +101,7 @@ public class Alice{
 	* return true/false (Boolean)
 	*/	
 	public boolean getSecretPotion(){
+		TextIO.putln("got secret potion");
 		return bag.getSecretpotion();
 	}		
 	
@@ -140,6 +111,7 @@ public class Alice{
 	* return true/false (Boolean)
 	*/	
 	public boolean getApple(){
+		TextIO.putln("got Apple");
 		return bag.getApple();
 	}		
 	
@@ -148,27 +120,9 @@ public class Alice{
 	* 
 	* parameter n - represents name of player (String)
 	*/		
-	public void setName(String n){
-		name = n;
-	}
+
 	
-	/**
-	* Sets member variable hp to h
-	* 
-	* parameter h - represents HP of player (int)
-	*/		
-	public void setHP(int h){
-		hp = h;
-	}	
 	
-	/**
-	* Sets member variable attack to a
-	* 
-	* parameter a - represents attack of player (int)
-	*/		
-	public void setAttack(int a){
-		attack = a;
-	}
 	
 	/**
 	* Sets member variable levelLocation to l. This
@@ -177,6 +131,7 @@ public class Alice{
 	*/	
 	public void setLevel(int l){
 		levelLocation = l;
+		TextIO.putln("set level");
 	}	
 	
 	/**
