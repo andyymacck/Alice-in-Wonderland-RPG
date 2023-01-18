@@ -8,11 +8,11 @@
 */
 
 
+
 import textio.TextIO;	//This is so textio can be used.
 
 public class Inventory{
 	//member variables
-	private int bagSize = 10;	//This is the max amount of items alice can hold.
 	String[] bag = new String[10];	//This will be where items are held.
 	
 	/**
@@ -45,7 +45,7 @@ public class Inventory{
 		}	
 		else{
 			TextIO.putln("The contents of your bag is:");
-			for(int i = 0; i < 3; i++){
+			for(int i = 0; i < 10; i++){
 				if(bag[i] != " "){
 					TextIO.putln(bag[i]); 
 				}	
@@ -243,5 +243,3 @@ public class Inventory{
 		}	
 	}	
 }
-
-	
