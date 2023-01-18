@@ -8,7 +8,6 @@
 */
 
 
-
 import textio.TextIO;
 
 public class Worldmap{
@@ -197,8 +196,9 @@ public class Worldmap{
 			while(temp != 2){
 				temp = TextIO.getInt();
 				if(temp == 1){
-					TextIO.putln(" The baby mushroom is sprouting\nif it isn't picked now it will be much too big to eat soon!");//
+					TextIO.putln(" You consume the mushroom, things start feeling a little weird..");//
 					p.aliceMushroom();
+					p.setHP(p.getHP() + 10);
 					return DaggerPath;
 				}
 				else if(temp == 2){
@@ -298,4 +298,5 @@ public class Worldmap{
 	}
 }
 	
+
 
