@@ -1,2 +1,2 @@
 # Alice-in-Wonderland-RPG
-A satrical text based RPG of Alice in wonderland
+A text based RPG of Alice in wonderland
